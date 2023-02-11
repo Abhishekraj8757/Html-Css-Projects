@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #FFCD9E;
+    height: 65vh;
+}
+
+.footer{
+    background-color: black;
+    height: 35vh;
+}
+
+.sub-header{
+    /* border: solid black; */
+    height: 60vh;
+    width: 90vw;
+    margin-left: 90px;
+    display: flex;
+}
+
+.left-container{
+    height: 60vh;
+    width: 50vw;
+    /* border: solid black; */
+}
+
+.right-container{
+    height: 60vh;
+    width: 50vw;
+    /* border: solid green; */
+}
+
+.right-containerImage{
+   /* border: solid red; */
+   height: 58vh;
+   width: 40vw;
+   margin-left: 12px;
+}
+
+.left-container-inner-div{
+    height: 50vh;
+    width: 38vw;
+    /* border: solid green; */
+    margin-left: 45px;
+    margin-top:60px;
+}
+
+
+.left-container-para{
+    width: 25vw;
+    /* border: solid red; */
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.left-container-h1{
+  width: 30vw;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+  line-height: 35px;
+}
+
+.left-container-span
+{
+    /* border: solid red; */
+    margin-top: 50px;
+}
+
+.left-container-span-h2{
+    /* margin-top: 24px; */
+    /* border: solid greenyellow; */
+    margin-top: 28px;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+}
+
+.form-div{
+    margin-top: 30px;
+}
+
+.form-input{
+    border: solid black;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 13px;
+    /* text-align: center; */
+    width: 18vw;
+}
+
+.form-div-button{
+    margin-left: 10px;
+    padding: 13px;
+    width: 12vw;
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    border-radius: 5px;
+}
+
+.left-container-lastDiv{
+    margin-top: 20px;
+}
+
+.left-container-lastDiv-para{
+    margin-left: 22px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-container{
+    display: flex;
+    width: 70vw;
+    height: 34vh;
+    margin-left: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+.footer-leftpart-contents{
+    color: white;
+    margin: 9px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.footer-rightpart-contents{
+    color: white;
+    margin: 9px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: end;
+}
